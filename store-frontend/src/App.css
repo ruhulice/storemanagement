@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* My Style added */
+
+/* App.css */
+
+.sidebar {
+  background-color: #8f9f8f; /* Green-gray background */
+  width: 200px;
+  height: 100vh;
+}
+
+.active-link {
+  background-color: #4caf50 !important; /* Green for active link */
+  color: white !important;
+}
+
+.inactive-link {
+  background-color: transparent;
+  color: #212529; /* Bootstrap dark text */
+}
